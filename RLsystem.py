@@ -57,7 +57,6 @@ def Login():
   passwd1=input("Password: ")
 
   datainput1=user1+','+passwd1
-  print(datainput1)
 
   myfile = open("DatabaseRL.txt", "rt")
   contents = myfile.read()
