@@ -30,8 +30,7 @@ def Registration():
     print("Strong password is recommended.Please try again")
   
   datum=open("DatabaseRL.txt",'a') 
-  datainput=email+','+password
-  print(datainput)  
+  datainput=email+','+password  
   data=datum.write(datainput+"\n")
   print("Registration is done successfully")
   print("Login to proceed further")
